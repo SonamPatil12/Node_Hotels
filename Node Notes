@@ -1,0 +1,28 @@
+node -v 
+npm -v (npm- node package manager)
+For taking input for user we are using here prompt
+for installing prompt - npm i prompt-sync
+npm init - it will create new server/file
+
+Package.json - A list of package with versionit also consist of other metadata 
+Package-local.json - Deatail of every package installed with version, sub dependancies, store details. Its like a detailed billed
+
+Nodemon- (npm i nodemon) Once you run the nodemon command no need to run a command again and again he will accept the changes and automaticlly run the file and give the output
+
+callback() - Callback function is a function which is called in main function once main function completed then instently run callback function
+
+OS- Using Os package we get the details of system like userName, shell
+FS-
+
+
+
+MongoDB
+to start mOngo- sudo systemctl status mongod
+check version - mongosh -v
+to open shell- mongosh
+to exist- ctrl+d
+to show database- show databases
+to to use any database- use database name
+to create collection - db.createCollection("users")
+to insert data- db.users.insertOne({userName:'Sonam', age:28})
+
